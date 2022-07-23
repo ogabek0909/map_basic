@@ -7,10 +7,10 @@ Return true if the length of the map is greater than zero, otherwise false.
 */
 
 bool func(Map dct) {
-  if (dct.length > 0) {
-    return true;
+  if (dct.length == 0) {
+    return false;
   }
-  return false;
+  return true;
 }
 
 void main() {
